@@ -4,7 +4,7 @@
 
 </div>
 
-Vecparser 是一个自动将任意层 for 循环（在 MATLAB、CVX 中）尽可能向量化的解析器，由此节省大量（有时97%）的程序运行时间。这项技术基于我2022年发在https://ask.cvxr.com/t/how-to-vectorize-most-constraint-loops-in-cvx/9804 的原创帖子。
+vecparser 是一个自动将任意层 for 循环（在 MATLAB、CVX 中）尽可能向量化的解析器，由此节省大量（有时97%）的程序运行时间。这项技术基于我2022年发在https://ask.cvxr.com/t/how-to-vectorize-most-constraint-loops-in-cvx/9804 的原创帖子。
 [性能表现](#性能表现):
 
 <p align="center"><img src="images/loop.png" width="60%" ></p>
