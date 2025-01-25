@@ -24,7 +24,7 @@ Here is the [performance](#performance):
 ## Quick Start
 Run
 ```bash
-git clone https://github.com/jackfsuia/loop-killer.git && cd loop-killer
+git clone https://github.com/jackfsuia/vecparser.git && cd vecparser
 ```
 Then install the requirements, run
 ```bash
