@@ -1,4 +1,4 @@
-## loop-killer
+## vecparser
 
 English | [简体中文](README_zh.md)
 
@@ -144,11 +144,11 @@ Vecparser is licensed under the Apache 2.0 License found in the [LICENSE](LICENS
 If this work is helpful, please kindly cite as:
 
 ```bibtex
-@article{loop-killer,
-  title={loop-killer: a parser that vectorizes your nested for-loops (in MATLAB, CVX) as much as possible.}, 
+@article{vecparser,
+  title={vecparser: a parser that vectorizes your nested for-loops (in MATLAB, CVX) as much as possible.}, 
   author={Yannan Luo},
   year={2024},
-  url={https://github.com/jackfsuia/loop-killer}
+  url={https://github.com/jackfsuia/vecparser}
 }
 ```
 ## Acknowledgement
