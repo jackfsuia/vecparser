@@ -1,4 +1,4 @@
-## loop-killer
+## vecparser
 
 [English](README.md) | 简体中文
 
@@ -24,7 +24,7 @@ Vecparser 是一个自动将任意层 for 循环（在 MATLAB、CVX 中）尽可
 ## 快速启动
 先克隆仓库
 ```bash
-git clone https://github.com/jackfsuia/loop-killer.git && cd loop-killer
+git clone https://github.com/jackfsuia/vecparser.git && cd vecparser
 ```
 然后运行下面命令安装依赖项，
 ```bash
@@ -138,11 +138,11 @@ Vecparser 根据位于此仓库根目录中的 [LICENSE](LICENSE) 文件中的 A
 如果这项工作对你有所帮助，请引用为：
 
 ```bibtex
-@article{loop-killer,
-  title={loop-killer: a parser that vectorizes your nested for-loops (in MATLAB, CVX) as much as possible.}, 
+@article{vecparser,
+  title={vecparser: a parser that vectorizes your nested for-loops (in MATLAB, CVX) as much as possible.}, 
   author={Yannan Luo},
   year={2024},
-  url={https://github.com/jackfsuia/loop-killer}
+  url={https://github.com/jackfsuia/vecparser}
 }
 ```
 ## 致谢
