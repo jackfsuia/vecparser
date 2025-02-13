@@ -94,7 +94,7 @@ cached_condition_for_this=((repmat((1:N1)',1,N2)>permute(repmat((1:N2)'.*2,1,N1)
 
 u=permute(permute(repmat((cached_condition_for_this),1,1,N3,N4).*permute((permute(repmat((repmat(p,1,1,N4)+permute(repmat(a,1,N1,N3),[2,3,1])),1,1,1,N2),[1,3,4,2]).*permute(repmat(b,1,1,1,N4),[3,4,1,2])),[1,3,4,2]),[1,4,2,3])+permute((1-permute((cached_condition_for_this),[1,3,4,2])),[1,3,4,2]).*permute(u,[1,4,2,3]),[1,3,4,2]);
 
-%-----Please clear this file each time before you write a new loop on------
+%-----Please clear all texts of this file each time before you write a new loop on------
 ```
 Now copy the results to your matlab to replace the loops, and try them out.
 
