@@ -478,6 +478,6 @@ for exp in line_list:
         vectorize_expression(extract_expression(exp))
         
 print("\n---------Those results have been writen to the file \"loop_editor.m\", please refresh it.---------")
-new_content+="%-----Please clear this file each time before you write a new loop on------"
+new_content+="%-----Please clear all texts of this file each time before you write a new loop on------"
 with open('loop_editor.m', "a") as target_file:
     target_file.write(new_content)
