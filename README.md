@@ -135,10 +135,6 @@ Now it supports nested 'if' and non-if blocks anywhere in loop, but **don't supp
 - Support reduce operators like `sum`, `norm`, `*`(matrix multiplication).
 - Explore its use on other languages (e.g., python)
   
-## License
-
-Vecparser is licensed under the Apache 2.0 License found in the [LICENSE](LICENSE) file in the root directory of this repository.
-
 ## Citation
 
 If this work is helpful, please kindly cite as:
